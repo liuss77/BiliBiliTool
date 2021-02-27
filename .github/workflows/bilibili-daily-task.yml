@@ -54,8 +54,8 @@ jobs:
         Ray_BiliBiliCookie__BiliJct: ${{secrets.BILIJCT}} # 已过时
         Ray_BiliBiliCookie__Bili_jct: ${{secrets.BILI_JCT}} # 已过时
         Ray_BiliBiliCookie__OtherCookies: ${{secrets.OTHERCOOKIES}} # 已过时
-        Ray_Serilog__WriteTo__3__Args__botToken: 1519309522:AAFKWDnilzwZv-rA4YfRVjO3EDzB-0uUmtY # Telegram
-        Ray_Serilog__WriteTo__3__Args__chatId: 549028401
+        Ray_Serilog__WriteTo__3__Args__botToken: ${{secrets.PUSHTGTOKEN}} # Telegram
+        Ray_Serilog__WriteTo__3__Args__chatId: ${{secrets.PUSHTGCHATID}}
         Ray_Serilog__WriteTo__3__Args__containsTrigger: ${{secrets.PUSHTGTRIGGER}}
         Ray_Serilog__WriteTo__3__Args__restrictedToMinimumLevel: ${{secrets.PUSHTGLEVEL}}
         Ray_Serilog__WriteTo__4__Args__webHookUrl: ${{secrets.PUSHWEIXINURL}} # 企业微信
