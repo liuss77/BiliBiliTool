@@ -84,10 +84,10 @@ jobs:
         Ray_DailyTaskConfig__NumberOfCoins: ${{secrets.NUMBEROFCOINS}}
         Ray_DailyTaskConfig__SelectLike: ${{secrets.SELECTLIKE}}
         Ray_DailyTaskConfig__SupportUpIds: ${{secrets.SUPPORTUPIDS}}
-        Ray_DailyTaskConfig__DayOfAutoCharge: ${{secrets.DAYOFAUTOCHARGE}}
-        Ray_DailyTaskConfig__AutoChargeUpId: ${{secrets.AUTOCHARGEUPID}}
+        Ray_DailyTaskConfig__DayOfAutoCharge: 15
+        Ray_DailyTaskConfig__AutoChargeUpId: -1
         Ray_DailyTaskConfig__ChargeComment: ${{secrets.CHARGECOMMENT}}
-        Ray_DailyTaskConfig__DayOfReceiveVipPrivilege: ${{secrets.DAYOFRECEIVEVIPPRIVILEGE}}
+        Ray_DailyTaskConfig__DayOfReceiveVipPrivilege: 5
         Ray_DailyTaskConfig__DayOfExchangeSilver2Coin: ${{secrets.DAYOFEXCHANGESILVER2COIN}}
         Ray_DailyTaskConfig__DevicePlatform: ${{secrets.DEVICEPLATFORM}}
         Ray_Serilog__WriteTo__0__Args__restrictedToMinimumLevel: ${{secrets.CONSOLELOGLEVEL}}
